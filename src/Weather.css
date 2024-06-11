@@ -30,6 +30,10 @@
   padding-left: 0;
 }
 
+.Weather canvas {
+  margin-right: 10px;
+}
+
 .Weather .temperature-value {
   font-size: 80px;
   font-weight: 700;
