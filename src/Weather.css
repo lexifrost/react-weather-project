@@ -31,16 +31,25 @@
 }
 
 .Weather canvas {
-  margin-right: 10px;
+  height: 60px;
+  margin-right: 12px;
+  margin-top: 25px;
+  width: 60px;
 }
 
 .Weather .temperature-value {
   font-size: 80px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .Weather .temperature-unit {
-  font-size: 28px;
+  font-size: 26px;
+  margin-left: 5px;
   position: relative;
-  top: -32px;
+  top: -34px;
+}
+
+.Weather a {
+  color: #eda1c1;
+  text-decoration: none;
 }
